@@ -1,0 +1,52 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!-- Base application theme. -->
+    <style name="Theme.Easy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorMore1</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDarkReceita</item>
+        <item name="colorOnSecondary">@color/colorwhite</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="despesasTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tema de despesas -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDespesa</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDespesa</item>
+        <item name="colorAccent">@color/colorAccentDespesa</item>
+    </style>
+
+    <style name="receitasTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tema de receitas -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryReceita</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkReceita</item>
+        <item name="colorAccent">@color/colorAccentReceita</item>
+
+    </style>
+
+    <style name="Theme.Easy.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Easy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Easy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
